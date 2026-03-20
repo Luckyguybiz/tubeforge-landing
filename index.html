@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TubeForge — AI-Powered YouTube Growth Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <svg class="logo__icon" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#FF0033"/><polygon points="13,9 13,23 24,16" fill="#fff"/></svg>
+        <span class="logo__text">TubeForge</span>
+      </a>
+      <nav class="nav">
+        <button class="nav__link" onclick="scrollToSection('courses')">Courses</button>
+        <button class="nav__link" onclick="scrollToSection('pricing')">Pricing</button>
+        <a href="#tools" class="nav__link">Tools</a>
+        <a href="#blog" class="nav__link">Blog</a>
+      </nav>
+      <div class="header__actions">
+        <button class="btn btn--outline" onclick="scrollToSection('pricing')">Log in</button>
+        <button class="btn btn--primary" onclick="scrollToSection('pricing')">Start Free</button>
+      </div>
+      <button class="burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <h1 class="hero__title">
+          <span>Grow Your</span>
+          <span>YouTube Channel</span>
+          <span class="gradient-text">with AI</span>
+        </h1>
+        <p class="hero__subtitle">Master dozens of AI tools, build your content factory, and scale your channel to millions of views</p>
+        <button class="btn btn--primary btn--lg" onclick="scrollToSection('pricing')">Start Free</button>
+      </div>
+      <div class="hero__video container">
+        <div class="video-placeholder">
+          <div class="video-placeholder__play">&#9655;</div>
+          <p>Watch how TubeForge works</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="problem">
+      <div class="container problem__inner">
+        <div class="problem__text">
+          <h2 class="section-title">Don't rely on a single AI skill</h2>
+          <p class="problem__desc">"YouTube gurus" sell you courses on one tool. But tomorrow Google will make that tool a free button in Gemini, and you'll be left with nothing.</p>
+          <p class="problem__bold">In the AI era, going "deep" is dangerous. You need to go "wide".</p>
+        </div>
+        <div class="problem__cards">
+          <div class="problem-card">
+            <div class="problem-card__icon">📉</div>
+            <h3>Death of Trends</h3>
+            <p>What worked a month ago is trash today. We teach adaptability, not templates.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-card__icon">💡</div>
+            <h3>Versatility Principle</h3>
+            <p>The more tools in your arsenal, the higher your value. Combine AI video, thumbnails, SEO and automation.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-card__icon">🤖</div>
+            <h3>One-Person Studio</h3>
+            <p>Replace an entire production team with yourself and AI agents.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION / COURSES -->
+    <section class="solution" id="courses">
+      <div class="container">
+        <div class="solution__header">
+          <span class="badge">🔧 Solution</span>
+          <h2 class="section-title">That's why we built TubeForge</h2>
+          <p class="solution__desc">Constantly updated practical courses on all the AI tools you need for YouTube success</p>
+        </div>
+        <div class="courses-grid">
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#FF0033,#FF6B6B)"><span class="course-card__emoji">🎬</span></div>
+            <div class="course-card__body">
+              <h3>AI Video Generation</h3>
+              <p>Create stunning videos with Sora, Runway, and Kling. Generate B-roll, intros, and full videos from text.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>Generate cinematic B-roll with AI</li><li>Create faceless YouTube channels</li><li>Edit and upscale AI videos</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#7C3AED,#A78BFA)"><span class="course-card__emoji">🎨</span></div>
+            <div class="course-card__body">
+              <h3>Thumbnail Mastery</h3>
+              <p>Design click-worthy thumbnails using Midjourney, DALL-E, and Canva AI. Boost your CTR by 3x.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>AI-generated thumbnail designs</li><li>A/B testing strategies</li><li>Psychology of click-through rates</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#059669,#34D399)"><span class="course-card__emoji">📝</span></div>
+            <div class="course-card__body">
+              <h3>Script Writing with AI</h3>
+              <p>Write viral scripts using ChatGPT, Claude, and custom prompts. From hooks to CTAs.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>Hook formulas that retain viewers</li><li>AI-assisted research and outlining</li><li>Script optimization for retention</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#D97706,#FCD34D)"><span class="course-card__emoji">🔍</span></div>
+            <div class="course-card__body">
+              <h3>YouTube SEO & Analytics</h3>
+              <p>Rank your videos using AI-powered SEO tools. Analyze competitors and optimize metadata.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>AI keyword research tools</li><li>Title and description optimization</li><li>Analytics-driven content strategy</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#2563EB,#60A5FA)"><span class="course-card__emoji">🤖</span></div>
+            <div class="course-card__body">
+              <h3>Content Automation</h3>
+              <p>Build a content factory with Make and n8n. Auto-publish to YouTube, TikTok, Instagram and more.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>Automate video publishing</li><li>AI-generated descriptions & tags</li><li>Multi-platform distribution</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#DC2626,#F87171)"><span class="course-card__emoji">🎙️</span></div>
+            <div class="course-card__body">
+              <h3>AI Voice & Avatars</h3>
+              <p>Clone your voice, create digital avatars, and produce voiceovers with ElevenLabs and HeyGen.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>Voice cloning for narration</li><li>AI avatar video creation</li><li>Multi-language dubbing</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#7C3AED,#C084FC)"><span class="course-card__emoji">💰</span></div>
+            <div class="course-card__body">
+              <h3>YouTube Monetization</h3>
+              <p>Learn every monetization method: AdSense, sponsors, affiliate, merch, memberships — all with AI.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>AI-powered sponsor outreach</li><li>Automated affiliate funnels</li><li>Revenue diversification strategies</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#0891B2,#67E8F9)"><span class="course-card__emoji">📊</span></div>
+            <div class="course-card__body">
+              <h3>Shorts & Clips Factory</h3>
+              <p>Turn long-form videos into viral Shorts automatically. AI clip selection, captions, and editing.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>Auto-clip with Opus and Vizard</li><li>AI captions and effects</li><li>Cross-platform repurposing</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+          <div class="course-card">
+            <div class="course-card__image" style="background:linear-gradient(135deg,#475569,#94A3B8)"><span class="course-card__emoji">⚡</span><span class="course-card__badge">12 lessons</span></div>
+            <div class="course-card__body">
+              <h3>ChatGPT for Creators</h3>
+              <p>Master ChatGPT for content: scripts, titles, descriptions, community posts, audience engagement.</p>
+              <h4>You'll learn:</h4>
+              <ul><li>Write effective creator prompts</li><li>Generate content calendars</li><li>Analyze audience feedback with AI</li></ul>
+              <button class="btn btn--primary btn--full">Start Free</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMUNITY -->
+    <section class="community">
+      <div class="container community__inner">
+        <div class="community__text">
+          <span class="badge">💬 Community</span>
+          <h2 class="section-title">Watching courses but have no one to ask?</h2>
+          <p>Beyond lessons, we have a live community with constant support and answers to all your questions</p>
+          <button class="btn btn--primary">Start Free</button>
+        </div>
+        <div class="community__image">
+          <div class="community-preview">
+            <div class="community-preview__header"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            <div class="community-preview__messages">
+              <div class="msg msg--left">Just hit 10K subs using the AI thumbnail technique! 🎉</div>
+              <div class="msg msg--right">Congrats! Which model did you use?</div>
+              <div class="msg msg--left">Midjourney v6 + the prompt from Module 3 👌</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title text-center">Student Success Stories</h2>
+        <p class="text-center text-muted">Real results from our community members</p>
+        <div class="testimonials__grid">
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p>"Went from 200 to 50K subs in 3 months using TubeForge's AI content system. Automation courses saved me 20 hrs/week."</p>
+            <div class="testimonial-card__author"><div class="avatar">A</div><div><strong>Alex M.</strong><br><span class="text-muted">Tech Channel · 50K subs</span></div></div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p>"The AI thumbnail course tripled my CTR overnight. Best investment I've made for my channel."</p>
+            <div class="testimonial-card__author"><div class="avatar">S</div><div><strong>Sarah K.</strong><br><span class="text-muted">Lifestyle Vlog · 120K subs</span></div></div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p>"Built a faceless channel earning $4K/month. The Sora + ElevenLabs combo from the course is incredible."</p>
+            <div class="testimonial-card__author"><div class="avatar">M</div><div><strong>Mike R.</strong><br><span class="text-muted">Finance Faceless · 85K subs</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <h2 class="section-title text-center">Choose Your Plan</h2>
+        <p class="text-center text-muted">Tools that pay for themselves. No hidden fees.</p>
+        <div class="pricing__grid">
+          <div class="pricing-card">
+            <h3>Free</h3>
+            <p class="pricing-card__desc">Look around and see how it works</p>
+            <div class="pricing-card__price"><span class="big">$0</span></div>
+            <p class="pricing-card__period">Free forever</p>
+            <ul><li>✓ Personal learning plan</li><li>✓ Access to first lessons</li><li>✓ AI project portfolio</li><li class="disabled">✗ Full course access</li><li class="disabled">✗ Community access</li></ul>
+            <button class="btn btn--outline btn--full">Start Free</button>
+          </div>
+          <div class="pricing-card pricing-card--featured">
+            <h3>Monthly</h3>
+            <p class="pricing-card__desc">Full ecosystem for work and growth</p>
+            <div class="pricing-card__price"><span class="big">$20</span><span class="per">/mo</span></div>
+            <p class="pricing-card__period">No long-term commitments</p>
+            <ul><li>✓ Personal learning plan</li><li>✓ Access to ALL courses</li><li>✓ Community access</li><li>✓ AI project portfolio</li><li>✓ New course notifications</li></ul>
+            <button class="btn btn--white btn--full">Activate Access</button>
+          </div>
+          <div class="pricing-card">
+            <h3>Yearly</h3>
+            <p class="pricing-card__desc">For those serious about mastering AI</p>
+            <div class="pricing-card__price"><span class="big">$190</span><span class="per">/yr</span></div>
+            <p class="pricing-card__period">≈ $15.83/mo · Best value</p>
+            <ul><li>✓ Personal learning plan</li><li>✓ Access to ALL courses</li><li>✓ Community access</li><li>✓ AI project portfolio</li><li>✓ New course notifications</li><li>✓ Save $50</li></ul>
+            <button class="btn btn--primary btn--full">Go Yearly & Save</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="tools" id="tools">
+      <div class="container">
+        <h2 class="section-title">Popular AI Tools</h2>
+        <div class="tools__grid">
+          <a href="#" class="tool-card"><div class="tool-card__icon">🎬</div><div><strong>Runway</strong><p class="text-muted">AI video generation and editing</p></div></a>
+          <a href="#" class="tool-card"><div class="tool-card__icon">🗣️</div><div><strong>ElevenLabs</strong><p class="text-muted">AI voice cloning and TTS</p></div></a>
+          <a href="#" class="tool-card"><div class="tool-card__icon">🎨</div><div><strong>Midjourney</strong><p class="text-muted">AI image generation</p></div></a>
+          <a href="#" class="tool-card"><div class="tool-card__icon">✂️</div><div><strong>Opus Clip</strong><p class="text-muted">AI-powered video clipping</p></div></a>
+          <a href="#" class="tool-card"><div class="tool-card__icon">🔄</div><div><strong>Make</strong><p class="text-muted">Workflow automation</p></div></a>
+          <a href="#" class="tool-card"><div class="tool-card__icon">🧑‍💻</div><div><strong>HeyGen</strong><p class="text-muted">AI avatar creation</p></div></a>
+        </div>
+        <div class="text-center" style="margin-top:2rem"><a href="#" class="link-arrow">View all tools →</a></div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="blog__grid">
+          <a href="#" class="blog-card"><div class="blog-card__image" style="background:linear-gradient(135deg,#FF0033,#FF6B6B)"></div><h3>5 AI Tools That Will 10x Your YouTube Growth in 2026</h3></a>
+          <a href="#" class="blog-card"><div class="blog-card__image" style="background:linear-gradient(135deg,#7C3AED,#A78BFA)"></div><h3>How to Build a Faceless YouTube Channel with AI</h3></a>
+          <a href="#" class="blog-card"><div class="blog-card__image" style="background:linear-gradient(135deg,#059669,#34D399)"></div><h3>The Complete Guide to AI-Generated Thumbnails</h3></a>
+        </div>
+        <div class="text-center" style="margin-top:2rem"><a href="#" class="link-arrow">All articles →</a></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <div class="container container--sm">
+        <h2 class="section-title text-center">Frequently Asked <span class="gradient-text">Questions</span></h2>
+        <div class="faq__list">
+          <details class="faq-item"><summary>What is TubeForge?</summary><p>TubeForge is a comprehensive AI-powered learning platform for YouTube creators. We offer constantly updated courses on all the AI tools you need to grow your channel.</p></details>
+          <details class="faq-item"><summary>How much does it cost?</summary><p>We have a free tier, a monthly plan at $20/mo, and a yearly plan at $190/year (best value). No hidden fees.</p></details>
+          <details class="faq-item"><summary>How does cancellation work?</summary><p>Cancel anytime from your account settings. Access continues until the end of your billing period.</p></details>
+          <details class="faq-item"><summary>I'm a beginner. Is this for me?</summary><p>Absolutely! Our courses start from basics and build up. Whether just starting or creating for years, there's something for everyone.</p></details>
+          <details class="faq-item"><summary>How often are new courses added?</summary><p>We add new courses and update existing ones every week. AI tools evolve fast, and so do we.</p></details>
+          <details class="faq-item"><summary>Where do I watch the courses?</summary><p>All courses are on our platform. Watch from any device — desktop, tablet, or phone.</p></details>
+          <details class="faq-item"><summary>Is there community support?</summary><p>Yes! Paid members get access to our private community for questions, progress sharing, and connecting with other creators.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo"><svg class="logo__icon" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="8" fill="#FF0033"/><polygon points="13,9 13,23 24,16" fill="#fff"/></svg><span class="logo__text">TubeForge</span></a>
+        <p class="footer__tagline">All AI skills for YouTube in one place.</p>
+        <div class="footer__socials"><a href="#" aria-label="Telegram">📨</a><a href="#" aria-label="Instagram">📸</a><a href="#" aria-label="Twitter">🐦</a></div>
+      </div>
+      <div class="footer__col"><h4>Navigation</h4><ul><li><a href="#courses">Courses</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#">FAQ</a></li><li><a href="#">Support</a></li></ul></div>
+      <div class="footer__col"><h4>Courses</h4><ul><li><a href="#">AI Video Generation</a></li><li><a href="#">Thumbnail Mastery</a></li><li><a href="#">YouTube SEO</a></li><li><a href="#">Content Automation</a></li><li><a href="#">and 20+ more</a></li></ul></div>
+      <div class="footer__col"><h4>Contact</h4><ul><li><a href="#">Telegram</a></li><li><a href="#">Instagram</a></li><li><a href="#">Twitter / X</a></li></ul></div>
+    </div>
+    <div class="container footer__bottom"><p>© 2025 TubeForge. All rights reserved.</p><div class="footer__links"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a></div></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
